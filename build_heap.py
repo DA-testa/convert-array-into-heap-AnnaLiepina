@@ -46,7 +46,7 @@ def main():
     elif command[0] == 'F':
         file_name = input()
 
-        file = open('./test/' + file_name, 'r')
+        file = open('./tests/' + file_name, 'r')
 
         n = int(file.readline())
 
